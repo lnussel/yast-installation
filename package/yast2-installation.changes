@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Mon Feb  1 12:10:04 UTC 2021 - schubi <schubi@localhost>
+
+- Logging all available product information into directory
+  /var/log/YaST2/product_info before starting the installation.
+  This should help for evaluating the cause of e.g. bsc#1180888,
+  bsc#1180908, bsc#1178688.
+- 4.3.25
+
+-------------------------------------------------------------------
 Mon Dec  7 09:27:38 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Do not cleanup the libzypp cache when the system has low memory,
