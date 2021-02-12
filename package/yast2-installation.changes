@@ -1,10 +1,17 @@
 -------------------------------------------------------------------
-Mon Feb  1 12:10:04 UTC 2021 - schubi <schubi@localhost>
+Wed Feb 10 09:01:33 UTC 2021 - schubi <schubi@localhost>
 
 - Logging all available product information into directory
   /var/log/YaST2/installation_info before starting the installation.
   This should help for evaluating the cause of e.g. bsc#1180888,
   bsc#1180908, bsc#1178688.
+- 4.3.26  
+  
+-------------------------------------------------------------------
+Wed Feb 10 08:01:33 UTC 2021 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Do not crash when it is not possible to create a snapshot after
+  installing or upgrading the system (bsc#1180142).
 - 4.3.25
 
 -------------------------------------------------------------------

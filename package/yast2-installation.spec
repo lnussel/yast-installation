@@ -36,7 +36,7 @@ BuildRequires:  yast2-xml
 BuildRequires:  rubygem(%{rb_default_ruby_abi}:rspec)
 BuildRequires:  rubygem(%{rb_default_ruby_abi}:yast-rake)
 # Installation::InstallationInfo
-BuildRequires:  yast2 >= 4.3.53
+BuildRequires:  yast2 >= 4.3.56
 # Y2Packager::MediumType
 BuildRequires:  yast2-packager >= 4.2.27
 # CIOIgnore
@@ -79,7 +79,7 @@ Requires:       yast2-proxy
 # writing settings in the first installation stage.
 Requires:       yast2-services-manager >= 3.2.1
 # Installation::InstallationInfo
-Requires:       yast2 >= 4.3.53
+Requires:       yast2 >= 4.3.56
 # Y2Network::NtpServer
 Requires:       yast2-network >= 4.2.55
 # for AbortException and handle direct abort
